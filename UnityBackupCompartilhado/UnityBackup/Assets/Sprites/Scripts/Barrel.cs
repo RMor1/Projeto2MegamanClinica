@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Barrel : MonoBehaviour {
-    public int lives = 5;
+    public int lives;
     public ParticleSystem smoke;
     public ParticleSystem explosion;
     Renderer rend;
+    GameObject Respawn;
     // Use this for initialization
     void Start () {
         rend = GetComponent<Renderer>();
-
+        Respawn = GameObject.Find("BarrelSpawner");
+        rend.enabled = true;
+        lives = 3;
     }
 	
 	// Update is called once per frame
@@ -30,6 +33,10 @@ public class Barrel : MonoBehaviour {
         {
             explosion.Play();
             rend.enabled = false;
+            if (GameObject.Find("Test Explosion Prop"))
+            {
+                Instantiate(gameObject, Respawn.transform.position, Quaternion.identity);
+            }
             Destroy(gameObject,1f);
         }
     }
