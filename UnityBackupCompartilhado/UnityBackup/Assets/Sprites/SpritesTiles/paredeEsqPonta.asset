@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 535f8e525ff367c4ba67961e201a05ed, type: 3}
-  m_Name: sampleRandomEspinhos
+  m_Name: paredeEsqPonta
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -35,6 +35,8 @@ MonoBehaviour:
   m_Flags: 1
   m_ColliderType: 1
   m_Sprites:
-  - {fileID: 2470705212981983620, guid: bce0121ec3f59834ba1e382e7a1de8f5, type: 3}
-  - {fileID: 2470705212981983620, guid: bce0121ec3f59834ba1e382e7a1de8f5, type: 3}
-  - {fileID: -7114514896901630317, guid: bce0121ec3f59834ba1e382e7a1de8f5, type: 3}
+  - {fileID: 663027717049747501, guid: b4ce5887c9afa314482823254adf9d46, type: 3}
+  - {fileID: -2727435505240851645, guid: b4ce5887c9afa314482823254adf9d46, type: 3}
+  - {fileID: 835553365255947080, guid: b4ce5887c9afa314482823254adf9d46, type: 3}
+  - {fileID: 5345568786414742967, guid: b4ce5887c9afa314482823254adf9d46, type: 3}
+  - {fileID: 6896575500146120558, guid: b4ce5887c9afa314482823254adf9d46, type: 3}

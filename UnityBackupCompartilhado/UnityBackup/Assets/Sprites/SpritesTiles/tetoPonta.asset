@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SampleTiles_1
+  m_Script: {fileID: 11500000, guid: 535f8e525ff367c4ba67961e201a05ed, type: 3}
+  m_Name: tetoPonta
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 6857478695786105582, guid: bce0121ec3f59834ba1e382e7a1de8f5,
-    type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -35,3 +34,9 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
   m_ColliderType: 1
+  m_Sprites:
+  - {fileID: -1563543179911188313, guid: a6b09027821a1424aa317359ff6f780b, type: 3}
+  - {fileID: 4344456821313423058, guid: a6b09027821a1424aa317359ff6f780b, type: 3}
+  - {fileID: -27881296526132737, guid: a6b09027821a1424aa317359ff6f780b, type: 3}
+  - {fileID: -8173443597240947021, guid: a6b09027821a1424aa317359ff6f780b, type: 3}
+  - {fileID: 8096071926248457083, guid: a6b09027821a1424aa317359ff6f780b, type: 3}

@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SampleTiles_0
+  m_Script: {fileID: 11500000, guid: 535f8e525ff367c4ba67961e201a05ed, type: 3}
+  m_Name: chao
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 2771425059392427487, guid: bce0121ec3f59834ba1e382e7a1de8f5,
-    type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -35,3 +34,9 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
   m_ColliderType: 1
+  m_Sprites:
+  - {fileID: 8726662685262905500, guid: a6b09027821a1424aa317359ff6f780b, type: 3}
+  - {fileID: 4534497369463293661, guid: a6b09027821a1424aa317359ff6f780b, type: 3}
+  - {fileID: 7850589003101432932, guid: a6b09027821a1424aa317359ff6f780b, type: 3}
+  - {fileID: -982578498928948856, guid: a6b09027821a1424aa317359ff6f780b, type: 3}
+  - {fileID: 750097326475918052, guid: a6b09027821a1424aa317359ff6f780b, type: 3}

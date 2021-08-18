@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 535f8e525ff367c4ba67961e201a05ed, type: 3}
-  m_Name: New Random Tile
+  m_Name: paredeDirPonta
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -35,6 +35,8 @@ MonoBehaviour:
   m_Flags: 1
   m_ColliderType: 1
   m_Sprites:
-  - {fileID: 2771425059392427487, guid: bce0121ec3f59834ba1e382e7a1de8f5, type: 3}
-  - {fileID: 6857478695786105582, guid: bce0121ec3f59834ba1e382e7a1de8f5, type: 3}
-  - {fileID: 5514054117583209710, guid: bce0121ec3f59834ba1e382e7a1de8f5, type: 3}
+  - {fileID: -4813043257496431067, guid: b4ce5887c9afa314482823254adf9d46, type: 3}
+  - {fileID: -7702724699972738128, guid: b4ce5887c9afa314482823254adf9d46, type: 3}
+  - {fileID: 4052019349072004528, guid: b4ce5887c9afa314482823254adf9d46, type: 3}
+  - {fileID: 7885716876804994795, guid: b4ce5887c9afa314482823254adf9d46, type: 3}
+  - {fileID: 7062785365772168, guid: b4ce5887c9afa314482823254adf9d46, type: 3}
