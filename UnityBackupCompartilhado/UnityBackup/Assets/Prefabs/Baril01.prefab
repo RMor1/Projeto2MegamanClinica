@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 50446199489637262}
   - component: {fileID: 61510800422729660}
   - component: {fileID: 114031528727833752}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Baril01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 543df63fe3d153942b50346f09b6061b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lives: 5
+  lives: 3
   smoke: {fileID: 198048509473905748}
   explosion: {fileID: 198942230245156660}
 --- !u!1 &1783957683963776
@@ -159,9 +159,9 @@ GameObject:
   - component: {fileID: 4539874116427986}
   - component: {fileID: 198942230245156660}
   - component: {fileID: 199046225163118464}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Warning (1)
-  m_TagString: Untagged
+  m_TagString: Explosion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -174,7 +174,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783957683963776}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.03999996, y: 0.25, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.25, z: -0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 4495438428033782}
@@ -3760,10 +3760,10 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 3
-    type: 0
-    collisionMode: 0
+    type: 1
+    collisionMode: 1
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
@@ -3938,11 +3938,11 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 823
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -4915,7 +4915,6 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c10794022a0db6a4db394f90a12829b8, type: 2}
   - {fileID: 2100000, guid: c10794022a0db6a4db394f90a12829b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -9669,7 +9668,6 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c10794022a0db6a4db394f90a12829b8, type: 2}
   - {fileID: 2100000, guid: c10794022a0db6a4db394f90a12829b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0

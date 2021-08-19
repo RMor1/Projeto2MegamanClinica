@@ -106,7 +106,7 @@ public class Control : MonoBehaviour
     /// <param name="hit">coloque aqui o raycast hit para altura do chao</param>
     private void JumpRoutine(RaycastHit2D hit)
     {
-        if (hit.distance < 0.1f && hit.transform.gameObject.tag ==("Ground"))
+        if (hit.distance < 0.1f *(transform.localScale.x) && hit.transform.gameObject.tag ==("Ground"))
         {
             jumptime = 1;
         }
@@ -122,7 +122,7 @@ public class Control : MonoBehaviour
 
     private void JumpRoutineSide(RaycastHit2D hitside)
     {
-        if (hitside.distance < 0.3f && hitside.transform.gameObject.tag == ("Ground"))
+        if (hitside.distance < 0.3f*(transform.localScale.x) && hitside.transform.gameObject.tag == ("Ground"))
         {
 
             jumptimeside = 1;

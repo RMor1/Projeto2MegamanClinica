@@ -277,18 +277,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Baril01
       objectReference: {fileID: 0}
-    - target: {fileID: 1582772903025146, guid: 530452a3669f48d4e9e34de2108bab85, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783957683963776, guid: 530452a3669f48d4e9e34de2108bab85, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783957683963776, guid: 530452a3669f48d4e9e34de2108bab85, type: 3}
-      propertyPath: m_TagString
-      value: Explosion
-      objectReference: {fileID: 0}
     - target: {fileID: 4495438428033782, guid: 530452a3669f48d4e9e34de2108bab85, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -332,64 +320,6 @@ PrefabInstance:
     - target: {fileID: 4495438428033782, guid: 530452a3669f48d4e9e34de2108bab85, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4539874116427986, guid: 530452a3669f48d4e9e34de2108bab85, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 4539874116427986, guid: 530452a3669f48d4e9e34de2108bab85, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114031528727833752, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: lives
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 198942230245156660, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: CollisionModule.type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198942230245156660, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: TriggerModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198942230245156660, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: CollisionModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198942230245156660, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: CollisionModule.collisionMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198942230245156660, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: CollisionModule.collisionMessages
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198942230245156660, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: CollisionModule.collidesWith.m_Bits
-      value: 823
-      objectReference: {fileID: 0}
-    - target: {fileID: 198942230245156660, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: CollisionModule.m_EnergyLossOnCollision.scalar
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 199046225163118464, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 199450389574539754, guid: 530452a3669f48d4e9e34de2108bab85,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 530452a3669f48d4e9e34de2108bab85, type: 3}
@@ -630,45 +560,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6077420035780507231, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: CollisionModule.collidesWith.m_Bits
-      value: 1331
-      objectReference: {fileID: 0}
-    - target: {fileID: 6077420035780507231, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: CollisionModule.multiplyColliderForceByParticleSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6081616576632366635, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6207286873201322449, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6227428657800655611, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6234557937356533169, guid: 0e1c12ba12d685d4caa2e410185e872c,
         type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6234557937356533169, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6234557937356533169, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6234557937356533169, guid: 0e1c12ba12d685d4caa2e410185e872c,
         type: 3}
@@ -720,25 +615,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6237630708543041329, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Bullet
-      objectReference: {fileID: 0}
     - target: {fileID: 6238077196419189995, guid: 0e1c12ba12d685d4caa2e410185e872c,
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6269821540436389305, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: JumpForce
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6269821540436389305, guid: 0e1c12ba12d685d4caa2e410185e872c,
-        type: 3}
-      propertyPath: ShootCooldown
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e1c12ba12d685d4caa2e410185e872c, type: 3}
