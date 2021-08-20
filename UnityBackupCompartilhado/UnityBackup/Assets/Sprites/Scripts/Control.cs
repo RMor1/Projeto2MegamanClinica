@@ -15,11 +15,22 @@ public class Control : MonoBehaviour
     [Range(1f, 1.1f)] public float JumpForce = 1;
     private float LastTime;
     public float ShootCooldown;
+    [Range(0, 5)] public int vida;
+    private float timer;
+    public GameObject playerprefab;
+    private GameObject respawn;
     void Start()
     {
+        respawn = GameObject.Find("Respawn");
     }
     void Update()
     {
+        if (vida<=0)
+        {
+            vida = 5;
+            Instantiate(playerprefab, respawn.transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
         xmov = Input.GetAxis("Horizontal");
         if (Input.GetButtonDown("Jump"))
         {
@@ -106,9 +117,12 @@ public class Control : MonoBehaviour
     /// <param name="hit">coloque aqui o raycast hit para altura do chao</param>
     private void JumpRoutine(RaycastHit2D hit)
     {
-        if (hit.distance < 0.1f *(transform.localScale.x) && hit.transform.gameObject.tag ==("Ground"))
+        if (hit.distance < 0.1f *(transform.localScale.x))
         {
-            jumptime = 1;
+            if (hit.transform.gameObject.tag == ("Ground") || hit.transform.gameObject.tag == ("MovableObjects"))
+            {
+                jumptime = 1;
+            }
         }
 
 
@@ -122,11 +136,12 @@ public class Control : MonoBehaviour
 
     private void JumpRoutineSide(RaycastHit2D hitside)
     {
-        if (hitside.distance < 0.3f*(transform.localScale.x) && hitside.transform.gameObject.tag == ("Ground"))
+        if (hitside.distance < 0.3f*(transform.localScale.x))
         {
-
-            jumptimeside = 1;
-
+            if (hitside.transform.gameObject.tag == ("Ground") || hitside.transform.gameObject.tag == ("MovableObjects"))
+            {
+                jumptimeside = 1;
+            }
         }
 
         if (doublejump)
@@ -173,6 +188,18 @@ public class Control : MonoBehaviour
         if (collision.collider.CompareTag("Damage"))
         {
             LevelManager.instance.LowDamage();
+        }
+    }
+    private void OnParticleCollision(GameObject other)
+    {
+        if (other.gameObject.CompareTag("Explosion")) Damage();
+    }
+    public void Damage()
+    {
+        if((Time.time - timer) > 2)
+        {
+            timer = Time.time;
+            vida--;
         }
     }
 }

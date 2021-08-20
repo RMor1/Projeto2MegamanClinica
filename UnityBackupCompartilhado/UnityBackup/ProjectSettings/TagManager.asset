@@ -8,6 +8,8 @@ TagManager:
   - Bullet
   - Explosion
   - Ground
+  - Spike
+  - MovableObjects
   layers:
   - Default
   - TransparentFX

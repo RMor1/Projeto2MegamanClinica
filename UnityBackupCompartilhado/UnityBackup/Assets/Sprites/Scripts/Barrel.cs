@@ -42,7 +42,7 @@ public class Barrel : MonoBehaviour
         {
             smoke.Play();
         }
-        if (lives < 1)
+        if (lives == 0)
         {
             explosion.Play();
             rend.enabled = false;

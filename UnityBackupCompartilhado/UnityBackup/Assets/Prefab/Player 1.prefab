@@ -4842,7 +4842,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -5092049721513924993, guid: fb18e78ce8d3f584bbb4a0efd724c34f,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4913,6 +4913,8 @@ MonoBehaviour:
   MoveSpeed: 20
   JumpForce: 1.1
   ShootCooldown: 0
+  vida: 5
+  playerprefab: {fileID: 6238077196419189995}
 --- !u!70 &6227428657800655611
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
