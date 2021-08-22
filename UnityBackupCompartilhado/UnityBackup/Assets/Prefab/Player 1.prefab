@@ -169,7 +169,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 4
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4911,7 +4911,7 @@ MonoBehaviour:
   rdb: {fileID: 6207286873201322449}
   fire: {fileID: 6077420035780507231}
   MoveSpeed: 20
-  JumpForce: 1.1
+  JumpForce: 1.14
   ShootCooldown: 0
   vida: 5
   playerprefab: {fileID: 6238077196419189995}

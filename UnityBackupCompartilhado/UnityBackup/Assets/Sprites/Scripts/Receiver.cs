@@ -5,6 +5,7 @@ using UnityEngine;
 public class Receiver : MonoBehaviour
 {
     public int lives = 1;
+    [SerializeField] private GameObject BrokenPrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,11 @@ public class Receiver : MonoBehaviour
         {
             lives--;
         }
-        if (lives <= 0) Destroy(gameObject);
+        if (lives <= 0)
+        {
+            Instantiate(BrokenPrefab, gameObject.transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
 
     }
 }

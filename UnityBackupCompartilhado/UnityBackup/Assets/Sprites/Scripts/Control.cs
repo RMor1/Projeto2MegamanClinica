@@ -12,7 +12,7 @@ public class Control : MonoBehaviour
     public ParticleSystem fire;
     float LastPosition, DeltaPosition;
     [Range(0, 20)] public float MoveSpeed = 20;
-    [Range(1f, 1.1f)] public float JumpForce = 1;
+    [Range(1f, 1.2f)] public float JumpForce = 1;
     private float LastTime;
     public float ShootCooldown;
     [Range(0, 5)] public int vida;
