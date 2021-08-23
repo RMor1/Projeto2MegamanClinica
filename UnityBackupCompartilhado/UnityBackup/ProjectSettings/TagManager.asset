@@ -10,6 +10,7 @@ TagManager:
   - Ground
   - Spike
   - MovableObjects
+  - OnlyCollideWithMovableObjects
   layers:
   - Default
   - TransparentFX
@@ -23,8 +24,8 @@ TagManager:
   - Bullet
   - Objects
   - Particles
-  - 
-  - 
+  - OnlyCollidesWithMovableObjects
+  - MovableObjects
   - 
   - 
   - 
